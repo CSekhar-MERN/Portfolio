@@ -8,7 +8,7 @@ const projects = [
   {
     title: "E-Commerce Website for Retail Business",
     category: "Full Stack",
-    image: "/projects/image1.png",
+    image: "./projects/image1.png",
     desc: "A production-ready e-commerce website built for a retail business, featuring product management, secure payments, and order tracking with an admin panel.",
     tech: ["Next.js", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
     features: [
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Admin Dashboard & CMS for Business Operations",
     category: "Dashboard",
-    image: "/projects/image2.png",
+    image: "./projects/image2.png",
     desc: "A scalable admin dashboard designed to manage users, content, analytics, and business data with role-based access control.",
     tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Chart.js"],
     features: [
@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Corporate Business Website with Lead Management",
     category: "Website",
-    image: "/projects/image3.png",
+    image: "./projects/image3.png",
     desc: "A modern corporate website built for a service-based company, optimized for SEO and conversions, with integrated lead and inquiry management.",
     tech: ["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Email Integration"],
     features: [
@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Professional Portfolio & Brand Website",
     category: "Portfolio",
-    image: "/projects/image4.png",
+    image: "./projects/image4.png",
     desc: "A high-quality portfolio and personal brand website designed for professionals to showcase projects, skills, and attract clients.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     features: [
