@@ -67,7 +67,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.12 }}
               whileHover={{ y: -6 }}
-              className="group relative rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-left backdrop-blur-xl hover:border-purple-500/40 hover:shadow-purple-500/20 transition"
+              className="group relative rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-left hover:border-purple-500/40 hover:shadow-purple-500/20 transition"
             >
               {/* Stars */}
               <div className="mb-4 flex gap-1 text-yellow-400">

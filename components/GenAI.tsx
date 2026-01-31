@@ -95,7 +95,7 @@ export default function GenAI() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               whileHover={{ y: -6 }}
-              className="relative rounded-2xl border border-purple-500/20 bg-slate-900/70 p-6 text-left shadow-lg backdrop-blur-xl hover:border-purple-400/50 hover:shadow-purple-500/20 transition"
+              className="relative rounded-2xl border border-purple-500/20 bg-slate-900/70 p-6 text-left shadow-lg hover:border-purple-400/50 hover:shadow-purple-500/20 transition"
             >
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-purple-500/10 text-purple-400">
                 <item.icon className="h-6 w-6" />

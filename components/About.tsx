@@ -16,7 +16,7 @@ export default function AboutSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="relative rounded-3xl border border-slate-800 bg-slate-900/70 p-10 backdrop-blur-xl hover:border-purple-500/40 transition"
+          className="relative rounded-3xl border border-slate-800 bg-slate-900/70 p-10 hover:border-purple-500/40 transition"
         >
           {/* hover glow */}
           <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-purple-500/10 to-cyan-500/10 opacity-0 hover:opacity-100 transition" />

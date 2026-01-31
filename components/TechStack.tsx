@@ -93,7 +93,7 @@ export default function TechStack() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
               whileHover={{ y: -6 }}
-              className="group relative rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-left shadow-lg backdrop-blur-xl hover:border-purple-500/40 hover:shadow-purple-500/20 transition"
+              className="group relative rounded-2xl border border-slate-800 bg-slate-900/70 p-6 text-left shadow-lg hover:border-purple-500/40 hover:shadow-purple-500/20 transition"
             >
               {/* Icon */}
               <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-purple-500/10 text-purple-400 group-hover:scale-110 transition">

@@ -14,7 +14,7 @@ function Header() {
     const navItems = ["Services", "Projects", "Tech Stack", "Contact"];
 
     return (
-        <header className="sticky top-0 z-50 w-full bg-slate-950/80 backdrop-blur-xl border-b border-slate-800">
+        <header className="sticky top-0 z-50 w-full bg-slate-950/80 border-b border-slate-800">
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <a className="flex items-center gap-3 cursor-pointer" onClick={(e) => handleScroll(e, "home")}>

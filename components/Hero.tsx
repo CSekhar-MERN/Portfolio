@@ -29,7 +29,7 @@ export default function Hero() {
       >
         {/* Badge */}
         <div className="mb-6 flex justify-center">
-          <span className="px-4 py-1.5 rounded-lg border border-purple-500/30 text-purple-400 text-xs font-semibold bg-slate-900/60 backdrop-blur">
+          <span className="px-4 py-1.5 rounded-lg border border-purple-500/30 text-purple-400 text-xs font-semibold bg-slate-900/60">
             Available for Projects
           </span>
         </div>
