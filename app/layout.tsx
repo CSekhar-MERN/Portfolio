@@ -25,13 +25,12 @@ export const metadata: Metadata = {
   publisher: "Chandrasekhar Narwal",
 
   title: {
-    default: "Chandrasekhar Narwal | Full Stack Website Development",
+    default: "Chandrasekhar Narwal | Full Stack & GenAI Website Development",
     template: "%s | Chandrasekhar Narwal",
   },
 
   description:
-    "High-demand full stack website development services for businesses, startups, and online stores worldwide. I build fast, SEO-optimized websites, e-commerce platforms, and admin dashboards for global clients."
-  ,
+    "High-demand full stack website development services for businesses, startups, and online stores worldwide. I build fast, SEO-optimized websites, e-commerce platforms, admin dashboards, GenAI chatbots, AI automation solutions, and handle secure deployment & database architecture.",
 
   keywords: [
     // Core
@@ -68,9 +67,9 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Chandrasekhar Narwal | Full Stack Website Development",
+    title: "Chandrasekhar Narwal | Full Stack & GenAI Website Development",
     description:
-      "Custom full stack website development for businesses, startups, and online stores. I build fast, SEO-optimized websites, e-commerce platforms, and admin dashboards for clients worldwide.",
+      "Custom full stack website development for businesses and startups. I build fast, SEO-friendly websites, e-commerce platforms, admin dashboards, GenAI chatbots, AI automation solutions, with secure deployment and database management for global clients.",
     url: "https://csekhar-mern.github.io/Portfolio/",
     siteName: "Chandrasekhar Narwal Portfolio",
     images: [
@@ -78,7 +77,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Chandrasekhar Narwal - Full Stack Website Development",
+        alt: "Chandrasekhar Narwal - Full Stack & GenAI Website Development",
       },
     ],
     locale: "en_US",
@@ -87,9 +86,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Chandrasekhar Narwal | Full Stack Website Development",
+    title: "Chandrasekhar Narwal | Full Stack & GenAI Website Solutions",
     description:
-      "Need a fast, SEO-friendly website or online store? I build scalable full stack websites, e-commerce platforms, and dashboards for businesses and startups worldwide.",
+      "Need a modern website or AI-powered system? I build SEO-optimized websites, e-commerce platforms, GenAI chatbots, AI automation tools, dashboards, and handle deployment & databases for businesses worldwide.",
     images: ["/og-image.png"],
   },
 
