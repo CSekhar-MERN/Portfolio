@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chandrasekhar Narwal | Full Stack Website Development",
     description:
-      "High-performance websites, e-commerce platforms, dashboards, and business systems built with MERN & Next.js. Serving clients in India, USA & Canada.",
+      "Custom full stack website development for businesses, startups, and online stores. I build fast, SEO-optimized websites, e-commerce platforms, and admin dashboards for clients worldwide.",
     url: "https://csekhar-mern.github.io/Portfolio/",
     siteName: "Chandrasekhar Narwal Portfolio",
     images: [
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Chandrasekhar Narwal | Full Stack Website Development",
     description:
-      "Modern, fast & SEO-optimized websites for businesses and startups using MERN stack & Next.js.",
+      "Need a fast, SEO-friendly website or online store? I build scalable full stack websites, e-commerce platforms, and dashboards for businesses and startups worldwide.",
     images: ["/og-image.png"],
   },
 
