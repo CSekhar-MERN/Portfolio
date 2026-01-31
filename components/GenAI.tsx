@@ -42,7 +42,7 @@ const services = [
 export default function GenAI() {
   return (
     <section
-      className="relative py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
+      className="relative py-14 md:py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
       aria-labelledby="genai-services"
     >
       <div className="max-w-7xl mx-auto text-center">

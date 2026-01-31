@@ -30,7 +30,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section
-      className="relative py-28 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
+      className="relative py-14 md:py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
       aria-labelledby="client-testimonials"
     >
       <div className="max-w-7xl mx-auto text-center">

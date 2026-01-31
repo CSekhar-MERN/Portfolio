@@ -105,7 +105,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+    <section id="services" className="relative py-14 md:py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(139,92,246,0.12),transparent_70%)]" />
 
       <div className="relative z-10 max-w-7xl mx-auto">

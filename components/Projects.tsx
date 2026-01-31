@@ -8,7 +8,7 @@ const projects = [
   {
     title: "E-Commerce Website for Retail Business",
     category: "Full Stack",
-    image: "./projects/image1.png",
+    image: "./projects/image1.webp",
     desc: "A production-ready e-commerce website built for a retail business, featuring product management, secure payments, and order tracking with an admin panel.",
     tech: ["Next.js", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
     features: [
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Admin Dashboard & CMS for Business Operations",
     category: "Dashboard",
-    image: "./projects/image2.png",
+    image: "./projects/image2.webp",
     desc: "A scalable admin dashboard designed to manage users, content, analytics, and business data with role-based access control.",
     tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Chart.js"],
     features: [
@@ -34,7 +34,7 @@ const projects = [
   {
     title: "Corporate Business Website with Lead Management",
     category: "Website",
-    image: "./projects/image3.png",
+    image: "./projects/image3.webp",
     desc: "A modern corporate website built for a service-based company, optimized for SEO and conversions, with integrated lead and inquiry management.",
     tech: ["Next.js", "Tailwind CSS", "Node.js", "MongoDB", "Email Integration"],
     features: [
@@ -47,7 +47,7 @@ const projects = [
   {
     title: "Professional Portfolio & Brand Website",
     category: "Portfolio",
-    image: "./projects/image4.png",
+    image: "./projects/image4.webp",
     desc: "A high-quality portfolio and personal brand website designed for professionals to showcase projects, skills, and attract clients.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     features: [
@@ -64,7 +64,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-28 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
+      className="relative py-14 md:py-24 px-6 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950"
       aria-labelledby="featured-projects"
     >
       <div className="max-w-7xl mx-auto">
@@ -96,12 +96,12 @@ export default function Projects() {
           {projects.map((p, i) => (
             <motion.article
               key={p.title}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.12 }}
-              whileHover={{ y: -6 }}
-              className="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/70 backdrop-blur-xl hover:border-purple-500/40 hover:shadow-purple-500/20 transition"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, margin: "-120px" }}
+              transition={{ delay: i * 0.08, duration: 0.4 }}
+              className="group rounded-2xl overflow-hidden border border-slate-800
+             bg-slate-900/80 hover:border-purple-500/40 transition"
             >
               {/* Image */}
               <div className="relative h-80 w-full overflow-hidden">
