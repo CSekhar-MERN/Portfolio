@@ -57,7 +57,7 @@ export default function AboutSection() {
 
           <p className="text-slate-300 leading-relaxed mb-6 text-base md:text-lg">
             Hi, I’m <span className="text-white font-semibold">Chandrasekhar Narwal</span>, a
-            <span className="text-white font-semibold"> Full Stack Web Developer</span> specializing
+            <span className="text-white font-semibold"> Full Stack Engineer</span> specializing
             in building high-performance, scalable, and SEO-friendly web applications using the
             <span className="text-purple-400"> MERN stack</span> and
             <span className="text-purple-400"> Next.js</span>. I help startups, growing businesses,
