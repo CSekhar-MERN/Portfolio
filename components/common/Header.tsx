@@ -1,16 +1,19 @@
 "use client";
 import Image from "next/image";
-import { useEffect } from "react";
 
 function Header() {
     // Smooth scroll handler
-    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    const handleScroll = (
+        e: React.MouseEvent<HTMLElement>,
+        id: string
+    ) => {
         e.preventDefault();
         const section = document.getElementById(id);
         if (section) {
             section.scrollIntoView({ behavior: "smooth", block: "start" });
         }
     };
+
 
     const navItems = ["Services", "Projects", "Tech Stack", "Contact"];
 
