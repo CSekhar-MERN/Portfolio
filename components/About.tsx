@@ -25,7 +25,7 @@ export default function AboutSection() {
             {/* Avatar */}
             <div className="flex justify-center mb-10">
               <div className="relative w-44 md:w-72 h-44 md:h-72 rounded-full bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center text-5xl md:text-7xl font-extrabold text-slate-950 shadow-[0_0_40px_rgba(168,85,247,0.6)]">
-                CN
+                CS
               </div>
             </div>
 

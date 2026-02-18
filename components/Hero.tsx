@@ -25,7 +25,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="relative z-10 max-w-5xl text-center"
+        className="relative z-10 max-w-5xl text-center mb-16"
       >
         {/* Badge */}
         <div className="mb-6 flex justify-center">
@@ -38,7 +38,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white">
           Full Stack{" "}
           <span className="text-purple-400">
-            Developer
+            Engineer
           </span>
         </h1>
 

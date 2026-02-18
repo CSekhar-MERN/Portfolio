@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   publisher: "Chandrasekhar Narwal",
 
   title: {
-    default: "Chandrasekhar Narwal | Full Stack & GenAI Website Development",
+    default: "Chandrasekhar Narwal | Full Stack & GenAI Website Solutions",
     template: "%s | Chandrasekhar Narwal",
   },
 
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Chandrasekhar Narwal | Full Stack & GenAI Website Development",
+    title: "Chandrasekhar Narwal | Full Stack & GenAI Website Solutions",
     description:
       "Custom full stack website development for businesses and startups. I build fast, SEO-friendly websites, e-commerce platforms, admin dashboards, GenAI chatbots, AI automation solutions, with secure deployment and database management for global clients.",
     url: "https://csekhar-mern.github.io/Portfolio/",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Chandrasekhar Narwal - Full Stack & GenAI Website Development",
+        alt: "Chandrasekhar Narwal - Full Stack & GenAI Website Solutions",
       },
     ],
     locale: "en_US",
@@ -126,7 +126,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "Person",
               name: "Chandrasekhar Narwal",
               url: "https://csekhar-mern.github.io/Portfolio/",
-              jobTitle: "Full Stack Website Developer",
+              jobTitle: "Full Stack Engineer",
               worksFor: {
                 "@type": "Organization",
                 name: "Independent Web Development Services",
