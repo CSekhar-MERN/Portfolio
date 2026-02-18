@@ -2,7 +2,7 @@
 
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Send, Instagram, Phone } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
@@ -63,13 +63,13 @@ export default function Contact() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
 
-      // 2️⃣ Auto-reply email (to user)
-      await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_USER_TEMPLATE_ID!,
-        form,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
-      );
+      // // 2️⃣ Auto-reply email (to user)
+      // await emailjs.sendForm(
+      //   process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+      //   process.env.NEXT_PUBLIC_EMAILJS_USER_TEMPLATE_ID!,
+      //   form,
+      //   process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      // );
 
       setStatus("success");
       form.reset();
@@ -132,7 +132,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start sm:items-center gap-4">
+              {/* <div className="flex items-start sm:items-center gap-4">
                 <div className="p-3 rounded-xl bg-purple-500/10 text-purple-400">
                   <Github size={20} />
                 </div>
@@ -142,7 +142,7 @@ export default function Contact() {
                     View Profile
                   </Link>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-start sm:items-center gap-4">
                 <div className="p-3 rounded-xl bg-purple-500/10 text-purple-400">
@@ -155,6 +155,38 @@ export default function Contact() {
                   </Link>
                 </div>
               </div>
+              <div className="flex items-start sm:items-center gap-4">
+                <div className="p-3 rounded-xl bg-purple-500/10 text-purple-400">
+                  <Instagram size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-slate-400">Instagram</p>
+                  <Link
+                    href="https://instagram.com/buildwithsekhar?igsh=OTFiaThsM2RxMjhz"
+                    target="_blank"
+                    className="text-purple-400 hover:underline transition"
+                  >
+                    Follow
+                  </Link>
+                </div>
+              </div>
+              <div className="flex items-start sm:items-center gap-4">
+                <div className="p-3 rounded-xl bg-purple-500/10 text-purple-400">
+                  <Phone size={20} />
+                </div>
+                <div>
+                  <p className="text-sm text-slate-400">Whatsapp</p>
+                  <Link
+                    href="https://wa.me/918764689006?text=Hi%20Chandrasekhar,%20I%20want%20to%20connect%20with%20you."
+                    target="_blank"
+                    className="text-purple-400 hover:underline transition"
+                  >
+                    Message
+                  </Link>
+                </div>
+              </div>
+
+
             </div>
           </motion.div>
 
