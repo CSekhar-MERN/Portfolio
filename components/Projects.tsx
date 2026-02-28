@@ -58,7 +58,7 @@ const projects = [
     link: "https://alexmorgantd.co.uk/",
   },
   {
-  title: "UNTUCKit.in – Scalable Menswear E-Commerce Solution",
+  title: "Scalable Menswear E-Commerce Solution",
   category: "Full Stack",
   image: "./projects/image5.webp",
   desc: "Developed a scalable and performance-optimized menswear e-commerce platform with secure authentication, payment gateway integration, and a custom admin system for seamless product and order management.",
@@ -68,7 +68,7 @@ const projects = [
     "Admin Panel with Inventory & Order Management",
     "Mobile-First & SEO Optimized Architecture"
   ],
-  link: "https://untuckit.in/",
+  link: "https://www.untuckit.com/",
 },
 ];
 
