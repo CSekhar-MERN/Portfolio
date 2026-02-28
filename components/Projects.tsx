@@ -8,7 +8,7 @@ const projects = [
   {
     title: "E-Commerce Website for Retail Business",
     category: "Full Stack",
-    image: "./projects/image1.webp",
+    image: "./projects/image1-v1.webp",
     desc: "A production-ready e-commerce website built for a retail business, featuring product management, secure payments, and order tracking with an admin panel.",
     tech: ["Next.js", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
     features: [
